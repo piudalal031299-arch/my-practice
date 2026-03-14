@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    
+
+    <title>My Form</title>
+</head>
+
+<body>
+    <section>
+        <div class="form-div">
+            <h1>create <span>account</span></h1>
+
+            <form action="#" method="post">
+                <div class="FormFlex">
+                    <div class="FormFlexChild">
+                        <label for="name" class="required">Name</label><br />
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="FormFlexChild">
+                        <label for="surname" class="required">Surname</label><br />
+                        <input type="text" placeholder="Enter your surname" required>
+                    </div>
+
+                    <div class="FormFlexChild extend-flex">
+                        <fieldset>
+                            <legend>Addrerss</legend>
+                            <label for="village">Village/City</label><br />
+                            <input type="text"><br />
+                            <label for="district">District</label><br />
+                            <input type="text"><br />
+                            <label for="state">State</label><br />
+                            <input type="text">
+                        </fieldset>
+                    </div>
+                    <div class="FormFlexChild">
+                        <label for="email" class="required">E-mail</label><br />
+                        <input type="email" placeholder="Enter your e-mail id" required>
+                    </div>
+                    <div class="FormFlexChild">
+                        <label for="phone" class="required">Contact No</label><br />
+                        <input type="tel" maxlength="10" placeholder="Enter your phone no" required>
+                    </div>
+                    <div class="FormFlexChild extend-flex">
+                        <label for="password" class="required">Password</label><br />
+                        <input type="password" minlength="8" required>
+                    </div>
+                    <div class="FormFlexChild extend-flex ">
+                        <label for="date" class="required">Date of Birth</label><br />
+                        <input type="date" required>
+                    </div>
+                    <div class="FormFlexChild extend-flex">
+                        <label for="gender">Gender</label><br />
+                        <div class="selection-label">
+                            <div>
+                                <label for="Male">Male</label>
+                                <input type="radio" name="gender">
+                            </div>
+                            <div>
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender">
+                            </div>
+                            <div>
+                                <label for="third">Third</label>
+                                <input type="radio" name="gender">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="FormFlexChild extend-flex">
+                        <label for="photo" class="required">Uplode your Photo</label><br />
+                        <input type="file" required style="background-color: #fff;">
+                    </div>
+
+                    <div class="FormFlexChild">
+                        <label for="income">Source of income</label><br />
+                        <select name="" id="">
+                            <option value="Self employed">Self employed</option>
+                            <option value="Pvt.employed">Pvt.employed</option>
+                            <option value="Govt. employed">Govt. employed</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+                    <div class="FormFlexChild">
+                        <label for="income">Income</label><br />
+                        <input type="range" name="amount" min="0" max="100k">
+                    </div>
+                    <div class="FormFlexChild extend-flex">
+                        <label for="Languages known">Languages known</label><br />
+                        <div class="selection-label" >
+                            <!-- <div>
+                                <label for="bengali">Bengali</label>
+                                <input type="checkbox">
+                            </div> -->
+                            <div>
+                                <label for="English">English</label>
+                                <input type="checkbox">
+                            </div>
+                            <div>
+                                <label for="hindi">Hindi</label>
+                                <input type="checkbox">
+                            </div>
+                            <div>
+                                <label for="others">Others</label>
+                                <input type="checkbox">
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="FormFlexChild extend-flex">
+                        <label for="comment">Comment</label><br />
+                        <textarea name="" id="" placeholder="write a comment"></textarea>
+                    </div>
+                    <div class="FormFlexChild extend-flex">
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-size: 62.5%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0 auto;
+    width: 100%;
+}
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+
+}
+:root{
+    --primary-color:#fff;
+    --font-color:#707070;
+    --font2-color:#0B7EEA;
+    --back-color:#032F62;
+    --back2-color:#3769AE;
+    --back3-color:#090B0D;
+}
+.container{
+    margin: 0 calc(20px + 1vw);
+}
+.header-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    /* border: 1px solid black; */
+}
+h1 img{
+    width: 80%;
+}
+.header-sec ul{
+    display: flex;
+    gap: calc(20px + 1vw);
+    font-size: calc(1.6rem + .2vw);
+}
+nav ul li a{
+    color: var(--font-color);
+}
+
+nav ul li a:focus{
+    color: var(--font2-color);
+}
+.header-icon{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-icon a img{
+    width: 60%;
+}
+
+.mobile-menu{
+    display: none;
+}
+.hero-img{
+    height: calc(100vh -70px);
+    
+}
+.hero-img img{
+    width: 100%;
+    height: 100%;
+}
+.card-sec1{
+    padding: 40px 0;
+}
+.card-sec1 h2, .card-sec2 h2{
+    font-size: calc(1.6rem + .2vw);
+    padding-bottom: 20px;
+}
+.card-sec1-cont{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+.card-sec1-img{
+    text-align: center;
+    background: rgba(226, 220, 220, 0.411);
+    padding:10px;
+    border-radius: 5px;
+}
+.card-sec1-img img{
+    width: 60%;
+    height: 100%;
+}
+
+.card-sec1-cards p{
+padding-top:12px;
+color: var(--font-color);
+font-size: calc(1.2rem + .2vw);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: calc(20px + .2vw);
+}
+.card-sec2-cont{
+    border: 1px solid grey;
+    padding: 15px 10px;
+    border-radius: 8px;
+
+}
+.image{
+    text-align: center;
+}
+.card-sec2-cont p{
+    
+font-size: calc(1.2rem + .2vw);
+color: var(--font-color);
+padding: 6px 0;
+
+
+}
+
+.card-sec2-cont h3{
+    
+font-size: calc(1.5rem + .2vw);
+padding: 6px 0;
+
+
+}
+
+.card-sec2-cont h2{
+    
+font-size: calc(1.2rem + .2vw);
+color: var(--font2-color);
+padding: 6px 0;
+
+
+}
+.card-sec3{
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+.card-sec3-col{
+    width: 48%;
+    /* border: 1px solid black; */
+}
+.col-left{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #090B0D;
+    color: #fff;
+    height: 100%;
+}
+.col-right{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background: #0B7EEA;
+    color: #fff;
+    height: 100%;
+
+
+}
+.sec3-image{
+    padding: 20px;
+    text-align: end;
+}
+.sec3-image img{
+    width: 100%;
+    height: 100%;
+}
+.cont h2{
+    margin: 20px 0;
+    font-size: calc(1.5rem + 1vw);
+    
+}
+.cont p{
+    
+    font-size: calc(1.2rem + .2vw);
+    
+
+}
+button{
+    margin: 20px 0;
+    padding: 5px;
+    background: var(--back-color);
+    /* box-shadow: 0 1px -2px 4px grey; */
+    border-radius: 3px;
+    border: none;
+    color: var(--primary-color);
+}
+.associate img{
+width: 100%;
+margin-bottom: 30px;
+}
+/* footer */
+footer{
+    background: var(--back-color);
+    
+
+}
+.footer-col{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+    padding: 30px 0;
+    color: #fff;
+}
+.footer-cont h2{
+    font-size: calc(1.5rem + 1vw);
+
+}
+.footer-cont p{
+    font-size: calc(1.2rem + .2vw);
+    margin: 20px 0;
+
+}
+.footer-cont ul li a{
+    color: #fff;
+    font-size: calc(1.5rem + .2vw);
+    line-height: 1.6;
+    
+}
+.footer-img{
+    display: flex;
+    gap: 5px;
+}
+
+
+.copyright{
+    border-top: 1px solid #fff;
+    padding: 20px;
+    color: #fff;
+    font-size: calc(1.5rem + .2vw);
+    display: flex;
+    justify-content: space-between;
+}
+.copyright-image{
+    display: flex;
+    gap: 10px;
+}
+.copyright-image img{
+    width: 20%;
+    
+}

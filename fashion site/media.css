@@ -1,0 +1,57 @@
+@media (max-width: 767px) {
+    .mobile-menu{
+        display: block;
+    }
+    nav ul{
+        display: none;
+    }
+    .footer-sec{
+    display: grid;
+    grid-template-columns: 100%;
+    row-gap: 15px;
+    
+
+}
+    
+}
+
+@media (max-width: 575px) {
+    .hero-sec{
+    background: var(--back3-color);
+    border-radius: 15px;
+    height: 60vh;
+     padding:  30px 30px 0;
+    display: flex;
+
+}
+.hero-sec-right img{
+    width: 100%;
+}
+    .new-arrival-card{
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    .payday-col-left {
+        width: 100%;
+    }
+    .payday-col-right {
+        width: 100%;
+    }
+    .app-sec-col{
+    width: 100%;
+    }
+    .right-col{
+    margin-top: 50px;
+
+    }
+    .email-div{
+        width: 250px;
+        padding: 4px;
+    }
+    
+    
+}
+
+@media (max-width: 479px) {}
+
+@media(max-width: 375px) {}

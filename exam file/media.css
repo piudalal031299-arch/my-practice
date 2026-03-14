@@ -1,0 +1,38 @@
+@media (max-width:768px){
+    .mobile-menu{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    .header-icon{
+        display:none;
+    }
+    .card-sec3-col{
+        width: 100%;
+        margin-top: 10px;
+    
+    }
+    
+    
+.footer-col{
+    display: flex;
+    flex-direction: column;
+}
+.footer-img{
+    width: 10%;
+}
+.footer-cont{
+    margin-bottom: 25px ;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.copyright-image img{
+    width: 20px;
+    
+}
+}
