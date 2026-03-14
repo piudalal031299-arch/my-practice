@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    padding: 40px 22vw;
+    
+}
+.poster-sec{
+    width: 100%;
+    height: 80vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+.poster-background{
+    position: absolute;
+   width: 100%;z-index: -1;
+}
+.poster-background img{
+     width: 100%;
+    height: 80vh;
+}
+.swamiji img{
+position: absolute;
+z-index: 2;
+top: 80px;
+left: -200px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+   right: 0;
+}
+.national{
+    position: absolute;
+    top: 20%;
+    left:53%;
+    color: green;
+    font-family: "Quintessential", serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+
+}
+.youth{
+   position: absolute;
+   left: 58%;
+   top:24%;
+
+
+}
+.day{
+    position: absolute;
+    top: 32%;
+    left: 60%;
+    transform: rotate(-20deg);
+    font-family: "Dancing Script", cursive;
+
+
+    font-size: 3.2rem;
+    color: rgb(193, 90, 17);
+}
+
+.text{
+ font-family: "Pirata One", system-ui;
+font-size: 4.2rem;
+color:#5a5958;
+}
+.asokechakra{
+    position: absolute;
+    top: 26.7%;
+    left:51.5% ;
+    
+}
+.hand{
+   position: absolute;
+    top: 5%;
+    left:41% ;  
+}
+q{
+    position: absolute;
+    bottom: 80px;
+    left:550px;
+    text-align: center;
+    color: brown;
+     font-family: "Jost", sans-serif;
+     font-size: 1.3rem;
+     line-height: 1;
+}
+h3{
+  position: absolute;
+    bottom: 50px;
+    left: 570px; 
+    color: #ccf309; 
+    text-shadow: 2px 2px 4px #e54211;
+    /* font-family: "Pacifico", cursive;  */
+     font-family: "Dancing Script", cursive;
+
+}
+.quote{
+    /* display: flex;
+    justify-content: center; */
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    /* background-color: rgb(47, 193, 47); */
+    text-decoration: wavy;
+    color: hsl(221, 95%, 22%);
+    font-family: "Caveat", cursive;
+    border-radius: 5px;
+    padding: 4px 10px;
+    font-size: 1.5rem;
+}
