@@ -1,0 +1,38 @@
+@media (max-width:767px) {
+    .header-navigation-menu {
+        display: none;
+    }
+
+    .header-top-cont-middle {
+        display: none;
+    }
+
+    .get-quote {
+        display: none;
+    }
+
+    .menuBar {
+        display: block;
+    }
+
+    .menubar-hidden-links {
+        display: hidden;
+    }
+    .hero-sec {
+        margin-bottom: 500px;
+    }
+
+    .selection-sec {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .selection-sec-col {
+        width: 100%;
+
+    }
+}
+/* @media (max-width:570){
+    .gridContainer{
+        display: flex;
+    }
