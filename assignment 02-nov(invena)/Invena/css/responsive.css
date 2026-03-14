@@ -1,0 +1,72 @@
+@media screen and (max-width: 767px) {
+     
+
+}
+@media screen and (max-width: 900px) {
+    .menuIcon{
+        display: block;
+        
+    }
+    .searchIcon, .headerSec .cmn-btn, .navLinks, .headerRow-1{
+        display: none;
+    }
+    
+    .latestServiceContPara{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .latestServiceContParaDiv {
+        padding-bottom: 20px;
+    }
+}
+   
+
+@media screen and (max-width: 576px) {
+    
+    /* .sec-1::before {
+        content: "";
+        background: rgba(255, 255, 255, 0.3);
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+     */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
